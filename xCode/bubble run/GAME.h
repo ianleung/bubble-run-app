@@ -8,6 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GAME
+int CountNumber;
+
+@interface GAME : UIViewController
+
+{
+    IBOutlet UIImageView *Pointblack;
+    IBOutlet UIButton *StartGame;
+    IBOutlet UILabel *TimerDisplay;
+    IBOutlet UIButton *PlayAgain;
+    IBOutlet UIButton *MainMenu;
+    IBOutlet UIImageView *Circle1;
+    IBOutlet UIImageView *Circle2;
+    IBOutlet UIImageView *Circle3;
+    
+    NSTimer *Timer;
+}
+
+- (IBAction)StartGame:(id)sender;
+
+- (void)TimerCount;
+
 
 @end

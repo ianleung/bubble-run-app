@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+{
+    
+    IBOutlet UIButton *PlayGame;
+    IBOutlet UIButton *Highscore;
+    IBOutlet UIButton *Settings;
+    
+}
 
 @end
 

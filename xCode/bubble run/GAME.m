@@ -8,6 +8,27 @@
 
 #import "GAME.h"
 
-@implementation GAME
+@implementation GAME : UIViewController
+
+
+
+-(IBAction)StartGame:(id)sender{
+    
+    Timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(TimerCount) userInfo: nil repeats:YES];
+    
+    StartGame.hidden = YES;
+    
+}
+
+
+-(void)TimerCount{
+    
+    CountNumber = CountNumber + 1;
+    TimerDisplay.text = [NSString stringWithFormat:@"%i", CountNumber];
+    
+}
+
+
+
 
 @end
