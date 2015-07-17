@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0640"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0EEFFD11B560C7C002F631B"
+               BlueprintIdentifier = "C0A02E861B5899A70045AB6C"
                BuildableName = "bubble run.app"
                BlueprintName = "bubble run"
-               ReferencedContainer = "container:bubble run.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0EEFFEA1B560C7C002F631B"
-               BuildableName = "bubble runTests.xctest"
-               BlueprintName = "bubble runTests"
                ReferencedContainer = "container:bubble run.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C0EEFFEA1B560C7C002F631B"
+               BlueprintIdentifier = "C0A02EA71B5899A80045AB6C"
                BuildableName = "bubble runTests.xctest"
                BlueprintName = "bubble runTests"
                ReferencedContainer = "container:bubble run.xcodeproj">
@@ -56,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0EEFFD11B560C7C002F631B"
+            BlueprintIdentifier = "C0A02E861B5899A70045AB6C"
             BuildableName = "bubble run.app"
             BlueprintName = "bubble run"
             ReferencedContainer = "container:bubble run.xcodeproj">
@@ -72,11 +58,10 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0EEFFD11B560C7C002F631B"
+            BlueprintIdentifier = "C0A02E861B5899A70045AB6C"
             BuildableName = "bubble run.app"
             BlueprintName = "bubble run"
             ReferencedContainer = "container:bubble run.xcodeproj">
@@ -91,11 +76,10 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C0EEFFD11B560C7C002F631B"
+            BlueprintIdentifier = "C0A02E861B5899A70045AB6C"
             BuildableName = "bubble run.app"
             BlueprintName = "bubble run"
             ReferencedContainer = "container:bubble run.xcodeproj">

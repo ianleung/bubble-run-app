@@ -2,7 +2,7 @@
 //  ViewController.m
 //  bubble run
 //
-//  Created by sophie su on 2015-07-14.
+//  Created by sophie su on 2015-07-16.
 //  Copyright (c) 2015 Gary Luk. All rights reserved.
 //
 
@@ -14,12 +14,14 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
