@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3E476A61-5405-4B70-9067-039A516389D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bubble run</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>858420FAE831FF1310BD3C5C76BA67FDB03B1EBD</key>
+		<string>github.com:transpiercer/bubble-run-app</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>xCode/bubble run/bubble run.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>858420FAE831FF1310BD3C5C76BA67FDB03B1EBD</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:transpiercer/bubble-run-app</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>858420FAE831FF1310BD3C5C76BA67FDB03B1EBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>858420FAE831FF1310BD3C5C76BA67FDB03B1EBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bubble-run-app</string>
+		</dict>
+	</array>
+</dict>
+</plist>

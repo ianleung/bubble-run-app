@@ -8,6 +8,7 @@
 
 #import "GameViewController.h"
 
+
 @interface GameViewController ()
 
 @end
@@ -15,10 +16,25 @@
 @implementation GameViewController
 
 -(IBAction)StartGame:(id)sender{
+     circles = [[NSMutableArray alloc]init];
+    for (int x=0;x<100;x++){
+        //circleClass *circlex = [[circleClass alloc]init];
+       // [circles addObject:circlex];
+        
+        
+    }
     
     StartGame.hidden = YES;
+    int x= 0;
     
     Circle1Appearance = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(Circle1Appearing) userInfo:nil  repeats:YES];
+    while(true){
+        sleep(3000);
+        if(x==0){
+            circle1.Circle1Appearance =[NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(Circle1Appearing) userInfo:nil  repeats:YES];
+            x++;
+        }
+    }
 
     // Rate of Circle1 appearance 
     

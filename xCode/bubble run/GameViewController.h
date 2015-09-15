@@ -7,12 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import"circleClass.h"
 
 int CircleAppearanceRate;
 
 @interface GameViewController : UIViewController
 
 {
+    NSMutableArray *circles;
+    circleClass *circle1;
+    circleClass *circle2;
+    circleClass *circle3;
+    circleClass *pointBlack;
+    
+    //ians code
+    
     
     IBOutlet UIButton *StartGame;
     IBOutlet UIImageView *Circle1;
